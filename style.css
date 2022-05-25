@@ -1,0 +1,119 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 30px rgba(red, green, blue, alpha);
+    position: fixed;
+    left: 0%;
+    top: 5%;
+    width: 100%;
+    z-index: 1;
+    background-color: wheat;
+    }
+    
+    .active{
+        background-color: wheat;
+        color: blueviolet;
+        box-shadow: 5px 10px 30px rgba(red, green, blue, alpha);
+        transition: all ease 0.2s;
+    }
+    
+    nav ul{
+        display: flex;
+    }
+    
+    
+    nav ul li a{
+        font-family: sans-serif;
+        height: 40px;
+        line-height: 43px;
+        margin: 3px;
+        padding: 0px 22px;
+        display: flex;
+        font-size: 0.8;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: blue;
+        letter-spacing: 1px;
+        border-radius: 3px;
+        transition:0.2s ease-in-out;
+    }
+    
+     
+    nav ul li a:hover{
+        background-color: green;
+        color: yellowgreen;
+        box-shadow: 5px 10px 30px rgba(purple, green, blue, orange);
+        transition: all ease 0.2s;
+    }
+    
+    nav.menu-btn
+    .menu-icon{
+        display:none;
+    }
+     nav{
+         justify-content: space-between;
+         height: 65px;
+         padding: 0px 30px;
+     }
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    
+    button{
+        outline: none;
+        border: none;
+    }
+    input{
+        outline: none;
+        border: none;
+    }
+       
+    
+     
+     nav.menu li a{
+         width: 100%;
+         height: 40px;
+         justify-content: center;
+         margin: 0px;
+         padding: 25px;
+         border: 1px solid gray;
+     }
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-color: sandybrown;
+      
+    }
+    
+    .main-heading{
+        min-width: auto;
+        position:absolute;
+        left: 30%;
+        top: 40%;
+        text-align: left;
+        font-size: 50px;
+    }
+    
+    
+    
+    header *{
+        position:fixed;
+        width: 100%;
+        height: 90%;
+        border: solid 2px white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: crimson;
+    }
+    
+    #menu>li{
+        display: inline-block;
+        vertical-align: top;
+    }
